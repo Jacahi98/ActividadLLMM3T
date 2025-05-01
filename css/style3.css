@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,600;1,600&family=Open+Sans:ital,wght@0,600;1,600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: rgba(135, 202, 139, 0.7);
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(123, 173, 119);
+}
+
+header .logo {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(38, 76, 16);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+}
+
+header .logo:hover {
+    color: black;
+    background-color: rgb(226, 226, 226);
+    transition: 0.5s;
+}
+
+header .navbar {
+    position: relative;
+    display: flex;
+}
+
+header .navbar li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+header .navbar li a:hover {
+    border-bottom: 5px solid rgb(66, 125, 33);
+    padding: 2px;
+}
+
+.contenido {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding-left: 30px;
+    height: 80vh;
+    margin-top: 5em;
+}
+
+.contenido div {
+    margin: 1rem;
+}
+
+.contenido .experiencia {
+    position: relative;
+    max-width: 1000px;
+    background-color: rgb(237, 226, 244);
+    /*Esto asigna un valor de 1 respecto al resto de elementos flex*/
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contenido .experiencia h2 {
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+
+.contenido .experiencia ul li{
+    list-style: none;
+    font-weight: 100;
+    font-family: "Cabin", sans-serif;
+    line-height: 1.5em;
+}
+
+.contenido .experiencia ul li.puesto{
+    font-size: 1.5em;
+    padding-top: 1em;
+    text-transform: uppercase;
+}
+
+.contenido .experiencia ul li.empresa{
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.contenido .experiencia ul li.fecha{
+    font-size: 1em;
+  
+}
+
+
+
+
+.contenido .educacion {
+    position: relative;
+    max-width: 1000px;
+    background-color: rgb(180, 219, 247);
+    /*Esto asigna un valor de 1 respecto al resto de elementos flex*/
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contenido .educacion h2 {
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+
+.contenido .educacion ul li{
+    list-style: none;
+    font-weight: 100;
+    font-family: "Cabin", sans-serif;
+    line-height: 1.5em;
+}
+
+
+.contenido .educacion ul li.titulo{
+    font-size: 1.5em;
+    padding-top: 1em;
+    text-transform: uppercase;
+}
+
+.contenido .educacion ul li.centro{
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.contenido .educacion ul li.fecha{
+    font-size: 1em;
+  
+}
+
+.contenido .educacioncomp {
+    position: relative;
+    max-width: 1000px;
+    background-color: rgb(244, 228, 190);
+    /*Esto asigna un valor de 1 respecto al resto de elementos flex*/
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contenido .educacioncomp h2 {
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+
+.contenido .educacioncomp ul li{
+    list-style: none;
+    font-weight: 100;
+    font-family: "Cabin", sans-serif;
+    line-height: 1.5em;
+}
+
+
+.contenido .educacioncomp ul li.titulo{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.contenido .educacioncomp ul li.centro{
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.contenido .educacioncomp ul li.fecha{
+    font-size: 1em;
+  
+}
+
+
+.copyright {
+    position: absolute;
+    bottom: 0px;
+    top: 850px;
+    left: 700px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(81, 116, 56);
+    border-radius: 5px
+}
+
+.copyright p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/*Redes sociales*/
+
+.redesSociales {
+    position: relative;
+    top: 940px;
+    right: 100px;
+    bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1px;
+    list-style: none;
+}
+
+.redesSociales li {
+    padding: 10px;
+}
+
+.redesSociales li a {
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+    transition: 0.5s;
+}
+
+.redesSociales li:hover a {
+    color: rgb(255, 255, 255);
+}
