@@ -220,7 +220,8 @@ header .navbar li a:hover {
     justify-content: center;
     text-align: center;
     background-color: rgb(81, 116, 56);
-    border-radius: 5px
+    border-radius: 5px;
+    height: 2em;
 }
 
 .copyright p {
@@ -255,4 +256,15 @@ header .navbar li a:hover {
 
 .redesSociales li:hover a {
     color: rgb(255, 255, 255);
+}
+
+.cajas {
+    display: flex;
+}
+
+@media (max-width:2140px) {
+   
+    .cajas {
+        font-size: 0.8em;
+    }
 }
