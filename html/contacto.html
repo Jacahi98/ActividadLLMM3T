@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <section>
+        <header>
+            <a href="#" class="logo">Javier Calvo Hidalgo</a>
+            <ul class="navbar">
+                <li>
+                    <a href="/index.html" target="_blank">Quién soy</a>
+                </li>
+                <li>
+                    <a href="proyectos.html" target="_blank">Proyectos destacados</a>
+                </li>
+                <li>
+                    <a href="curriculum.html" target="_blank">CV</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </header>
+        <div class="contenido">
+            <form action="mailto:javiercalvohidalgo@gmail.com" method="post">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" required>
+                    </div>
+                    <div>
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" id="apellidos" required>
+                    </div>
+                    <div>
+                        <label for="correo">Email</label>
+                        <input type="email" id="correo" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Asunto</legend>
+                    <div>
+                        <label for="asunto">Petición</label>
+                        <textarea id="asunto" placeholder="Rellena aquí tu petición"></textarea>
+                    </div>
+                </fieldset>
+                <div>
+                    <input type="submit" value="Enviar" class="boton">
+                </div>
+               
+            </form>
+
+        </div>
+
+    </section>
+
+    
+</body>
+</html>
